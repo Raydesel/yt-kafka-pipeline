@@ -7,7 +7,7 @@ and visualizes results in a live Streamlit dashboard.
 ---
 
 ## Architecture
-
+```text
 YouTube Data API v3 (every 2 min)
         ↓
 Python Producer → Apache Kafka topic: raw_video_events
@@ -15,7 +15,7 @@ Python Producer → Apache Kafka topic: raw_video_events
 Stream Processor Consumer → stateful aggregations (views, velocity, categories)
         ↓
 Streamlit Dashboard → auto-refreshes every 10 seconds
-
+```
 ---
 
 ## What it does
