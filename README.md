@@ -113,7 +113,7 @@ Kafka UI is available at `http://localhost:8080`
 ---
 
 ## Project structure
-
+```text
 ├── src/
 │   ├── youtube_producer.py    # Kafka producer — polls YouTube API
 │   ├── stream_processor.py    # Kafka consumer — stateful processing
@@ -123,7 +123,7 @@ Kafka UI is available at `http://localhost:8080`
 ├── .env.example               # Environment variable template
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## Batch pipeline (AWS)
